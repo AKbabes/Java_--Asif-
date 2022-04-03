@@ -11,6 +11,7 @@ public class patient {
 
     private String name;
     private int id;
+    private String blood_group;
 
     public int getId() {
         return id;
@@ -33,8 +34,6 @@ public class patient {
         setId(iid);
         setBlood_group(bg);
     }
-
-    private String blood_group;
     private final ArrayList <String> patient_disease = new ArrayList<String>();
     public void display(){
         System.out.println("name :"+this.name+"\n"+" id: "+this.id+" blood gorop :"+this.blood_group);

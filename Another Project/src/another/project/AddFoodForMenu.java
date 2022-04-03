@@ -11,9 +11,6 @@ public class AddFoodForMenu {
         this.name =name;
         this.price=price;
     }
-    public AddFoodForMenu(){
-
-    }
 
     public void CreateMenu() {
         Scanner input =new Scanner(System.in);
